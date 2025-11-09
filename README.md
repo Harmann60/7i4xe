@@ -1,16 +1,65 @@
-# React + Vite
+# 🧥 7i4xe — The Online Thrift Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **7i4xe**, a modern online thrift platform built to redefine sustainable fashion.  
+Buy, sell, and discover pre-loved clothing with a **minimal, stylish, and eco-conscious** shopping experience. 🌿
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 About the Project
 
-## React Compiler
+**7i4xe** is a community-driven thrift marketplace where users can:
+- 👕 **Buy** quality second-hand clothes at affordable prices  
+- ♻️ **Sell** pre-loved items easily with image uploads and category tagging  
+- 💬 **Connect** with like-minded eco-conscious shoppers  
+- 🛍️ **Explore** curated collections and trends powered by sustainability  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Our goal is to make thrifting **simple, smart, and social**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Tech Stack
+
+| Category | Technologies |
+|-----------|---------------|
+| 🌐 Frontend | React.js / Tailwind CSS |
+| ⚙️ Backend | Node.js / Express |
+| 🗄️ Database | MongoDB / Firebase |
+| ☁️ Hosting | Vercel / Render / Netlify |
+| 🔐 Auth | Firebase Auth / JWT |
+| 💬 Extras | Cloudinary (for image uploads), Stripe (for payments) |
+
+---
+
+## 📸 Sneak Peek *(coming soon)*
+
+> 🧩 Screenshots and live demo will be added once the MVP is ready.
+
+---
+
+## 🧑‍💻 Contributors
+
+| Name | Role | GitHub |
+|------|------|--------|
+| Harman | Co-Founder / Full Stack Developer | [@Harmann60](https://github.com/Harmann60) |
+| Nishant | Co-Founder / Business Lead | [@nishant-username](https://github.com/nishant-username) |
+
+> Want to collaborate or contribute? Open an issue or start a discussion!
+
+---
+
+## 🪄 Project Vision
+
+> “Style shouldn’t cost the planet.” 🌍  
+> **7i4xe** is built with the vision of combining sustainability with streetwear culture — giving every piece of clothing a second life.
+
+---
+
+## 📫 Contact
+
+💌 **Team 7i4xe** — Let’s build a greener fashion future!  
+📧 contact@7i4xe.com *(placeholder)*  
+🌐 [https://7i4xe.com](https://7i4xe.com) *(coming soon)*  
+
+---
+
+### ⭐ Star this repo if you support sustainable fashion!

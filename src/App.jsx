@@ -6,56 +6,64 @@ const products = [
     {
         id: 1,
         name: 'Vintage 90s Band Tee',
-        price: '35.00',
+        sellingPrice: '2,499.00',
+        originalPrice: '3,500.00',
         size: 'Large',
         imageUrl: 'https://placehold.co/400x500/93c5fd/374151?text=Vintage+Tee'
     },
     {
         id: 2,
         name: 'Classic Levi\'s Denim Jacket',
-        price: '75.00',
+        sellingPrice: '5,999.00',
+        originalPrice: '7,500.00',
         size: 'Medium',
         imageUrl: 'https://placehold.co/400x500/a5b4fc/374151?text=Denim+Jacket'
     },
     {
         id: 3,
         name: 'Floral Summer Dress',
-        price: '28.00',
+        sellingPrice: '1,899.00',
+        originalPrice: '2,800.00',
         size: 'Small',
         imageUrl: 'https://placehold.co/400x500/fca5a5/374151?text=Summer+Dress'
     },
     {
         id: 4,
         name: 'Leather Crossbody Bag',
-        price: '42.00',
+        sellingPrice: '3,499.00',
+        originalPrice: '4,200.00',
         size: 'One Size',
         imageUrl: 'https://placehold.co/400x500/fcd34d/374151?text=Leather+Bag'
     },
     {
         id: 5,
         name: 'Retro Windbreaker',
-        price: '50.00',
+        sellingPrice: '4,000.00',
+        originalPrice: '5,000.00',
         size: 'Medium',
         imageUrl: 'https://placehold.co/400x500/6ee7b7/374151?text=Windbreaker'
     },
     {
         id: 6,
         name: 'High-Waisted Mom Jeans',
-        price: '40.00',
+        sellingPrice: '3,200.00',
+        originalPrice: '4,000.00',
         size: '28"',
         imageUrl: 'https://placehold.co/400x500/c4b5fd/374151?text=Mom+Jeans'
     },
     {
         id: 7,
         name: 'Knit Cardigan',
-        price: '22.00',
+        sellingPrice: '1,500.00',
+        originalPrice: '2,200.00',
         size: 'Small',
         imageUrl: 'https://placehold.co/400x500/fdba74/374151?text=Cardigan'
     },
     {
         id: 8,
         name: 'Doc Martens Boots',
-        price: '90.00',
+        sellingPrice: '8,999.00',
+        originalPrice: '12,000.00',
         size: 'UK 7',
         imageUrl: 'https://placehold.co/400x500/f9a8d4/374151?text=Boots'
     }
@@ -166,18 +174,23 @@ const ProductCard = ({ product }) => (
                 }}
             />
         </div>
-        <div className="mt-4 flex justify-between">
-            <div>
-                <h3 className="text-sm text-gray-200">
+        <div className="mt-4 flex justify-between items-start">
+            <div className="min-w-0"> {/* This allows the div to shrink */}
+                <h3 className="text-sm text-gray-200 truncate"> {/* This adds the "..." */}
                     {product.name}
                 </h3>
                 <p className="mt-1 text-sm text-gray-400">
                     Size: {product.size}
                 </p>
             </div>
-            <p className="text-sm font-medium text-white">
-                ${product.price}
-            </p>
+            <div className="text-right flex-shrink-0 ml-4"> {/* This stops the price from being squished */}
+                <p className="text-sm font-medium text-white">
+                    ₹{product.sellingPrice}
+                </p>
+                <p className="mt-0.5 text-xs text-gray-500 line-through">
+                    ₹{product.originalPrice}
+                </p>
+            </div>
         </div>
     </a>
 );

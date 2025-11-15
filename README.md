@@ -54,7 +54,7 @@ Our goal is to make thrifting **simple, smart, and social**.
 ---
 
 ## 📫 Contact
-Harman 
+Harman   
 harmanjss@10gmail.com
 ---
 

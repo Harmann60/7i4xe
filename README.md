@@ -41,8 +41,7 @@ Our goal is to make thrifting **simple, smart, and social**.
 | Name | Role | GitHub |
 |------|------|--------|
 | Harman | Co-Founder / Full Stack Developer | [@Harmann60](https://github.com/Harmann60) |
-| Nishant | Co-Founder / Business Lead | [@nishant-username](https://github.com/nishant-username) |
-
+| Nishant | Co-Founder / Business Lead |Bro only uses Instagram |
 > Want to collaborate or contribute? Open an issue or start a discussion!
 
 ---
@@ -55,11 +54,8 @@ Our goal is to make thrifting **simple, smart, and social**.
 ---
 
 ## 📫 Contact
-
-💌 **Team 7i4xe** — Let’s build a greener fashion future!  
-📧 contact@7i4xe.com *(placeholder)*  
-🌐 [https://7i4xe.com](https://7i4xe.com) *(coming soon)*  
-
+Harman 
+harmanjss@10gmail.com
 ---
 
 ### ⭐ Star this repo if you support sustainable fashion!
